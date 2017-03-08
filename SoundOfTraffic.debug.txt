@@ -1,0 +1,10 @@
+Create Password Window
+Midi Sound Engine Started
+Channels: 16
+Voices: 64
+Auralizer started
+Tempo set to: 90
+Volume set to: 90
+Sending password. Attempting to start tcpdump process.
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+TCPDump Started.
