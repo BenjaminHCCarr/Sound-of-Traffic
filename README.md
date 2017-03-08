@@ -3,10 +3,15 @@
 201703 Trying to get this to run on OSX, sadly it appears that the problem is an old one with the `JComboBox` which in and of itself seemed to throw this error regularly back in thhe day… see: https://netbeans.org/bugzilla/show_bug.cgi?id=154014
 
 I have sorted the issued down to:
+
 Being in https://github.com/BenjaminHCCarr/Sound-of-Traffic/blob/master/Auralizer.java
+
 likely one of these three lines:
+
 https://github.com/BenjaminHCCarr/Sound-of-Traffic/blob/master/Auralizer.java#L211
+
 https://github.com/BenjaminHCCarr/Sound-of-Traffic/blob/master/Auralizer.java#L153
+
 https://github.com/BenjaminHCCarr/Sound-of-Traffic/blob/master/Auralizer.java#L61
 
 `tee` logging output is in file: https://github.com/BenjaminHCCarr/Sound-of-Traffic/blob/master/SoundOfTraffic.debug.txt
